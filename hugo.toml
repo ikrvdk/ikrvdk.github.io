@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'ikrvdk - portfolio&blog'
 theme = 'nightfall'
 
+[module]
+[[module.imports]]
+  path = 'github.com/LordMathis/hugo-theme-nightfall'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
