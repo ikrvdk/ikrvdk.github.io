@@ -1,0 +1,69 @@
+baseURL = 'https://ikrvdk.github.io/'
+languageCode = 'en-us'
+title = 'ikrvdk - portfolio&blog'
+theme = 'nightfall'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "posts"
+#   [[menu.header]]
+#     name = "cv"
+#     weight = 1
+#     url = "cv"
+
+[params]
+user = "ikrvdk"
+hostname = "github.io"
+footerHtml = '© 2025. Built with <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme'
+
+
+openLinksInNewTab = true
+
+showMetadata = false       # Master switch for all metadata display
+showPublishedDate = true  # Show published date on post page
+showReadingTime = true    # Show reading time on post page
+showTags = true           # Show tags on post page
+showAuthors = true        # Show authors on post page
+showCategories = true     # Show categories on post page
+
+  [params.author]
+    name = "Yuriy Ozhegov"
+    email = "yura.ozhegov@gmail.com" 
+
+[[params.social]]
+key = 0
+name = "cv (pdf)"
+url = "/cv-2025.pdf"
+target = "_blank"
+aria = "cv (pdf)"
+
+[[params.social]]
+key = 1
+name = "email"
+url = "mailto:yura.ozhegov@gmail.com"
+aria = "email address"
+
+[[params.social]]
+key = 2
+name = "github"
+url = "https://github.com/ikrvdk"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 3
+name = "telegram"
+url = "https://t.me/iKrevedko"
+target = "_blank"
+aria = "telegram account"
