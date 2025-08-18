@@ -4,5 +4,3 @@ title = "Posts"
 author = "Yuriy Ozhegov"
 tags = ["index"]
 +++
-
-just text
