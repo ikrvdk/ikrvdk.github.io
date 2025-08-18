@@ -1,21 +1,8 @@
 +++
-author = "Yuriy Ozhegov"
-title = "Работа с LVM в Linux: быстрый гайд"
-date = "2025-08-19"
-description = "Сегодня разберём, как управлять LVM в Linux."
-tags = [
-	"lvm",
-	"lsblk",
-	"mkfs",
-]
-categories = [
-	"linux",
-	"howto",
-]
-series = ["HowTo"]
-aliases = ["linux-lvm"]
+date = '2025-08-19T02:39:55+03:00'
+draft = false
+title = 'Работа с LVM в Linux: быстрый гайд'
 +++
-
 Сегодня разберём, как управлять LVM в Linux.
 <!--more-->
 
