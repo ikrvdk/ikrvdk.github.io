@@ -25,6 +25,8 @@ title = 'Работа с LVM в Linux: быстрый гайд'
 NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
 sdb      8:16   0   10G  0 disk
 sdc      8:32   0   10G  0 disk
+```
+
 Создадим разделы под LVM:
 ```shell
 # parted /dev/sdb
@@ -33,7 +35,7 @@ sdc      8:32   0   10G  0 disk
 (parted) mkpart primary 0% 100%
 (parted) set 1 lvm on
 (parted) q
-
+```
 
 ## 3️. Создание группы томов
 
