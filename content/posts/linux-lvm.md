@@ -4,14 +4,16 @@ title = "Работа с LVM в Linux: быстрый гайд"
 date = "2025-08-19"
 description = "Сегодня разберём, как управлять LVM в Linux."
 tags = [
-    "lvm",
-    "lsblk",
+	"lvm",
+	"lsblk",
 	"mkfs",
 ]
 categories = [
-    "linux",
-    "howto",
+	"linux",
+	"howto",
 ]
+series = ["HowTo"]
+aliases = ["linux-lvm"]
 +++
 
 Сегодня разберём, как управлять LVM в Linux.
