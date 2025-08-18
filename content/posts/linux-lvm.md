@@ -1,5 +1,5 @@
 +++
-author = "Yury Ozhegov"
+author = "Yuriy Ozhegov"
 title = "Работа с LVM в Linux: быстрый гайд"
 date = "2025-08-19"
 description = "Сегодня разберём, как управлять LVM в Linux."
@@ -71,7 +71,6 @@ data-vg   2   0   0 wz--n- 19.99g 19.99g
 Проверим:
 ```shell
 # lvs
-```
 
 LV       VG      Attr       LSize Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
 data-lv1 data-vg -wi-a----- 8.00g
